@@ -1,9 +1,4 @@
-/* Micro desafio - Passo 7 - Importe o módulo estudantes.js, que contém uma lista de alunos, dentro do arquivo 
-que contém o objeto curso. Substitua o conteúdo da propriedade lista de estudantes, pela lista de estudantes 
-do arquivo estudantes.js e garanta que sigam funcionando todos os métodos corretamente. (revisar que o arquivo
-tenha todos os métodos corretamente). */
-
-const aluno = require ('./aluno');
+const aluno = require('./checkpoint-final-p1');
 
 const estudantes = [
     new aluno('Arthur',3,[9,10,10,10]),

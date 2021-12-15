@@ -11,6 +11,6 @@ class aluno {
    faltas() {
         this.qtdFaltas++;
     }
-};
+}
 
 module.exports = aluno;
